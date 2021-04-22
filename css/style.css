@@ -1,0 +1,52 @@
+.container-welcome {
+  display: flex;
+  /* or inline-flex */
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.welcome-1 {
+  font-size: 52px;
+  font-family: "Crimson Text", Serif;
+  color: yellow;
+}
+
+.more {
+  font-style: bold;
+  font-size: 44x;
+  font-family: "Chivo", Sans-Serif;
+}
+
+.nice {
+  display: flex;
+  /* or inline-flex */
+  flex-direction: column;
+  justify-content: centerd;
+  align-items: center;
+}
+
+.more,
+.welcome-3,
+.welcome-4 {
+  color: white;
+}
+
+.welcome-3 {
+  font-size: 50px;
+}
+
+.welcome-4 {
+  font-size: 60px;
+}
+
+body {
+  background: url(https://i.postimg.cc/FRNBqVbG/vadim-sherbakov-t-CICLJ5kt-BE-unsplash.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.logo {
+  margin: 0;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHQTtFQUNFLGFBQWE7RUFBRSxtQkFBQTtFQUNmLG1CQUFtQjtFQUNuQiw2QkFBNkI7RUFDN0IsbUJBQW1CO0FDRHJCOztBRElBO0VBQ0UsZUFBZTtFQUNmLGtDQVgrQjtFQVkvQixhQUFhO0FDRGY7O0FESUE7RUFDRSxnQkFBZ0I7RUFDaEIsY0FBYztFQUNkLGdDQW5CK0I7QUNrQmpDOztBRElBO0VBQ0UsYUFBYTtFQUFFLG1CQUFBO0VBQ2Ysc0JBQXNCO0VBQ3RCLHdCQUF3QjtFQUN4QixtQkFBbUI7QUNBckI7O0FER0E7OztFQUdFLFlBQVk7QUNBZDs7QURHQTtFQUNFLGVBQWU7QUNBakI7O0FER0E7RUFDRSxlQUFlO0FDQWpCOztBREdBO0VBQ0UsdUhBQytCO0VBQy9CLHNCQUFzQjtFQUN0QixhQUFhO0FDRGY7O0FESUE7RUFDRSxTQUFTO0FDRFgiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

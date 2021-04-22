@@ -1,0 +1,53 @@
+$font-header: "Chivo", Sans-Serif;
+$font-text: "Crimson Text", Serif;
+
+.container-welcome {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.welcome-1 {
+  font-size: 52px;
+  font-family: $font-text;
+  color: yellow;
+}
+
+.more {
+  font-style: bold;
+  font-size: 44x;
+  font-family: $font-header;
+}
+
+.nice {
+  display: flex; /* or inline-flex */
+  flex-direction: column;
+  justify-content: centerd;
+  align-items: center;
+}
+
+.more,
+.welcome-3,
+.welcome-4 {
+  color: white;
+}
+
+.welcome-3 {
+  font-size: 50px;
+}
+
+.welcome-4 {
+  font-size: 60px;
+}
+
+body {
+  background: url(https://i.postimg.cc/FRNBqVbG/vadim-sherbakov-t-CICLJ5kt-BE-unsplash.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.logo {
+  margin: 0;
+}
